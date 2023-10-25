@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'TNB_regular';
+    src: url(fonts/TimesNewBastard-RegularWeb.ttf);
+}
+
+@font-face {
+    font-family: 'TNB_bold';
+    src: url(fonts/TimesNewBastard-BoldWeb.ttf);
+}
+
+@font-face {
+    font-family: 'TNB_regularitalic';
+    src: url(fonts/TimesNewBastard-ItalicWeb.ttf);
+}
+
+@font-face {
+    font-family: 'TNB_bolditalic';
+    src: url(fonts/TimesNewBastard-BoldItalicWeb.ttf);
+}
+
+.scroller {
+
+    animation: blinker 1.5s linear infinite;
+    color: blue;
+
+}
+
+@keyframes blinker {
+
+    100% {
+        opacity: 50%;
+    }
+}
+
+body{
+
+    background-color: beige;
+
+}
+
+h1{
+
+    font-family: 'TNB_bold';
+    color: blue;
+    text-align: center;
+    font-size: 75px;
+    text-decoration: underline;
+    line-height: 65px;
+    padding-bottom: -50px;
+
+}
+
+h2{
+
+    font-family: 'TNB_regular';
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    line-height: 75px;
+    padding-bottom: 40px;
+
+}
+
+h3{
+
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+h4{
+
+    font-family: Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    padding-bottom: 5px;
+
+}
+
+.italic_heading{
+
+    font-family: 'TNB_bolditalic';
+    color: blue;
+    text-align: center;
+    font-size: 75px;
+    text-decoration: underline;
+    line-height: 65px;
+
+}
+
+.header_container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: top;
+    align-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
