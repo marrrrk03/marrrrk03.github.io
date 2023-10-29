@@ -81,7 +81,7 @@ h5{
     color: blue;
     text-align: left;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 35px;
     padding-left: 25px;
     padding-right: 25px; 
 
@@ -107,10 +107,10 @@ h5{
     justify-content: space-between;
     align-items: top;
     align-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 
-}
+} 
 
 .two_column_flex{
 
@@ -118,6 +118,74 @@ h5{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    gap: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.teacherpic{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.teacher{
+
+    font-family: 'TNB_regular';
+    color: transparent;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: auto;
+
+}
+
+.teacher:hover{
+
+    font-family: 'TNB_regular';
+    color: grey;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.invisible{
+
+    color: transparent;
+
+}
+
+.italic{
+
+    font-style: italic;
+    text-align: left;
+
+}
+
+@media (max-width: 500px) {
+
+    .two_column_flex{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0;
+        padding-left: 0px;
+        padding-right: 25px;
+        padding-top: 250px;
+    
+    }
+
+    .teacher{
+
+        color: gray;
+
+    }
 
 }
