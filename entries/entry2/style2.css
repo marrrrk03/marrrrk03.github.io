@@ -1,3 +1,6 @@
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
+
 @font-face {
     font-family: 'TNB_regular';
     src: url(fonts/TimesNewBastard-RegularWeb.ttf);
