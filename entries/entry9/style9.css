@@ -131,9 +131,9 @@ h5{
 
 }
 
-.room1:hover{
+.italictext{
 
-    content: url(imgs9/glove.png);
+    font-family: 'TNB_bolditalic';
 
 }
 
