@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a_pork_loin</title>
+    <link rel="icon" type="image/png" href="./imgs10/glove.png">
+
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+
+    <h3>
+
+        <div class="header_container">
+    
+            <div> <a href="../entry9/index9.html"> go back </a> </div>
+            <div> 
+                <a href="../index.html">
+                    <img src="imgs10/glove.png" alt="pixelated glove" style="height: 100px; width: 100px;">
+                    </a>
+            </div>
+            <div> <a href="../entry11/index11.html"> go forward </a> </div>
+    
+        </div>
+    
+    </h3>
+
+<h1>a pork loin</h1>
+
+<div class="title">tap on these <span style="font-weight: bolder;">
+    objects >
+    
+    <span id="brick" style="display:none">
+        <h5>you did it!</h5>
+    </span>
+
+    <span id="brick" style="display:inline">
+        <a href="javascript:RevealOnTap('brick','brick')"><img src="imgs10/brick.jpg" alt="a brick"></a>
+    </span>
+
+</span> to make words appear!</div>
+
+<br>
+<br>
+
+<div class="flex_column">
+
+        <div id="word1" style="display:none">
+            <h5>the sky was a deep navy</h5>
+        </div>
+
+        <span id="word1" style="display:inline">
+            <a href="javascript:RevealOnTap('word1','word1')">
+                <img src="imgs10/blue.jpg" alt="000080 navy blue">
+                <h4>000080 navy blue</h4>
+            </a>
+        </span>
+
+
+        <div id="word2" style="display:none">
+            <h5>I could smell how sharp the cold was.</h5>
+        </div>
+
+        <span id="word2" style="display:inline">
+            <a href="javascript:RevealOnTap('word2','word2')">
+                <img src="imgs10/ice.jpg" alt="an icecube">
+                <h4>stock image of an ice cube</h4>
+            </a>
+        </span>
+
+
+        <div id="word3" style="display:none">
+            <h5>as well as someone having a barbecue far away</h5>
+        </div>
+
+        <span id="word3" style="display:inline">
+            <a href="javascript:RevealOnTap('word3','word3')">
+                <img src="imgs10/brisket.jpg" alt="a thing of brisket">
+                <h4>a thing of bbq brisket</h4>
+            </a>
+        </span>
+
+
+        <div id="word4" style="display:none">
+            <h5>my hands stained from charcoal.</h5>
+        </div>
+
+        <span id="word4" style="display:inline">
+            <a href="javascript:RevealOnTap('word4','word4')">
+                <img src="imgs10/charcoal.jpg" alt="a block of charcoal">
+                <h4>a charcoal</h4>
+            </a>
+        </span>
+
+
+        <div id="word5" style="display:none">
+            <h5>that green soap with the large pellets,</h5>
+        </div>
+
+        <span id="word5" style="display:inline">
+            <a href="javascript:RevealOnTap('word5','word5')">
+                <img src="imgs10/green_soap.jpg" alt="green soap">
+                <h4>green soap</h4>
+            </a>
+        </span>
+
+
+        <div id="word6" style="display:none">
+            <h5>this roll of paper is taller than me.</h5>
+        </div>
+
+        <span id="word6" style="display:inline">
+            <a href="javascript:RevealOnTap('word6','word6')">
+                <img src="imgs10/paperroll.jpg" alt="a roll of drawing paper">
+                <h4>roll of drawing paper</h4>
+            </a>
+        </span>
+
+
+        <div id="word7" style="display:none">
+            <h5><span style="color: red;">red bricks</span> and bright lights,</h5>
+        </div>
+
+        <span id="word7" style="display:inline">
+            <a href="javascript:RevealOnTap('word7','word7')">
+                <img src="imgs10/brick.jpg" alt="stack of bricks">
+                <h4 style="color: red;">bricks</h4>
+            </a>
+        </span>
+
+        <div id="word8" style="display:none">
+            <h5>back pain and <span style="color: orangered;">orange nights</span>,</h5>
+        </div>
+
+
+        <span id="word8" style="display:inline">
+            <a href="javascript:RevealOnTap('word8','word8')">
+                <img src="imgs10/night.jpg" alt="night time sidewalk">
+                <h4>a sidewalk at night time</h4>
+            </a>
+        </span>
+
+
+        <div id="word9" style="display:none">
+            <h5>I wonder what's for dinner,</h5>
+        </div>
+
+        <span id="word9" style="display:inline">
+            <a href="javascript:RevealOnTap('word9','word9')">
+                <img src="imgs10/dinner.jpg" alt="a dinner">
+                <h4>a tv dinner</h4>
+            </a>
+        </span>
+
+
+        <div id="word10" style="display:none">
+            <h5>it's pork loin,</h5>
+        </div>
+
+        <span id="word10" style="display:inline">
+            <a href="javascript:RevealOnTap('word10','word10')">
+                <img src="imgs10/pork.jpg" alt="piece of raw pork loin">
+                <h4>a raw piece of pork loin</h4>
+            </a>
+        </span>
+
+</div> 
+        
+<a href="https://www.youtube.com/watch?v=9b4F_ppjnKU">
+    <h2>Fleetwood Mac's 'Seven Wonders' 2018, remastered stuck in my head</h2>           
+</a>        
+
+<script type="text/javascript">
+
+    function revealontap(d1,d2)
+        {
+            document.getelementbyid(d1).style.display = "none";
+            document.getelementbyid(d2).style.display = "block";
+        }
+
+</script>       
+
+</body>
+</html>
