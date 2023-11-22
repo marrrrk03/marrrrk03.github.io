@@ -1,6 +1,10 @@
 ::-moz-selection { background: yellow; }
 ::selection { background: yellow; }
 
+a:visited { 
+    color: blue;
+}
+
 @font-face {
     font-family: 'TNB_regular';
     src: url(fonts/TimesNewBastard-RegularWeb.ttf);
@@ -111,4 +115,3 @@ h4{
     margin-right: 25px;
 
 }
-
