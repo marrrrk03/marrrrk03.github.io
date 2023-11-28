@@ -5,6 +5,14 @@ a:visited {
     color: blue;
 }
 
+.cookie {
+    background-image: url(imgs11/cookie.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 229px;
+    width: 229px;
+}  
+
 @font-face {
     font-family: 'TNB_regular';
     src: url(fonts/TimesNewBastard-RegularWeb.ttf);
@@ -25,11 +33,36 @@ a:visited {
     src: url(fonts/TimesNewBastard-BoldItalicWeb.ttf);
 }
 
+
 body{
 
     background-color: beige;
 
 }
+
+.title{
+
+    font-family: 'TNB_bolditalic';
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    line-height: 65px;
+    padding-bottom: 50px;
+
+}
+
+.bold{
+
+    font-family: 'TNB_bolditalic';
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    line-height: 65px; 
+
+}
+
 
 h1{
 
@@ -37,23 +70,17 @@ h1{
     color: blue;
     text-align: center;
     font-size: 75px;
-    line-height: 65px;
-    padding-bottom: -50px;
+    line-height: 75px;
 
 }
 
 h2{
 
-    font-family: 'TNB_regular';
+    font-family: 'TNB_bold';
     color: blue;
     text-align: center;
-    font-size: 50px;
-    text-decoration: underline;
-    line-height: 75px;
-    padding-bottom: 40px;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px; 
+    font-size: 35px;
+    line-height: 35px;
 
 }
 
@@ -76,8 +103,8 @@ h4{
     text-align: center;
     font-style: italic;
     font-size: 15px;
-    line-height: 10px;
-    padding-bottom: 150px;
+    line-height: 25px;
+    padding-bottom: 5px;
 
 }
 
@@ -85,23 +112,11 @@ h5{
 
     font-family: 'TNB_regular';
     color: blue;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 35px;
     padding-left: 25px;
     padding-right: 25px; 
-
-}
-
-.italic_heading{
-
-    font-family: 'TNB_bolditalic';
-    color: blue;
-    text-align: center;
-    font-size: 75px;
-    text-decoration: underline;
-    line-height: 65px;
-    padding-left: 25px;
 
 }
 
@@ -112,47 +127,43 @@ h5{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: top;
-    align-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
 
-}
+} 
 
-.long_flex{
+.flex_column{
 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 350px;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: normal;
+    gap: 25px;
     padding-left: 25px;
-    padding-top: 100px;
+    padding-right: 25px;
 
 }
 
-.red:hover {
+.italictext{
 
-    color: red;
+    font-family: 'TNB_bolditalic';
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
 
-    .long_flex{
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        gap: 650px;
-        padding-left: 0px;
-        padding-right: 25px;
-        padding-top: 250px;
-    
+    .flex_column{
+    flex-direction: column;
     }
 
-    .red{
+}
 
-        color: red;
+@media (max-width: 700px) {
 
+    .flex_column{
+    flex-direction: column;
     }
 
 }
