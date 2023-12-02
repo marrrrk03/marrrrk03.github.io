@@ -28,6 +28,7 @@ a:visited {
 body{
 
     background-color: beige;
+    cursor: url('imgs1/cursor1.jpg'), auto;
 
 }
 
@@ -132,6 +133,22 @@ h5{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between
+
+}
+
+@media (max-width: 1000px) {
+
+    .two_flex_column{
+    flex-direction: column;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .two_flex_column{
+    flex-direction: column;
+    }
 
 }
 

@@ -25,27 +25,10 @@ a:visited {
     src: url(fonts/TimesNewBastard-BoldItalicWeb.ttf);
 }
 
-.orchid:hover {
-    
-    content: url(imgs2/orchidP.jpg);
-
-}
-
-.eggplant:hover {
-
-    content: url(imgs2/eggplantP.jpg);
-
-}
-
-.cabbage:hover {
-
-    content: url(imgs2/cabbageP.jpg);
-
-}
-
 body{
 
     background-color: beige;
+    cursor: url('imgs4/cursor4.jpg'), auto;
 
 }
 

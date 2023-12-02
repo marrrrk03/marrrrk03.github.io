@@ -37,6 +37,7 @@ a:visited {
 body{
 
     background-color: beige;
+    cursor: url('imgs11/cursor11.jpg'), auto;
 
 }
 
@@ -153,14 +154,6 @@ h5{
 }
 
 @media (max-width: 1000px) {
-
-    .flex_column{
-    flex-direction: column;
-    }
-
-}
-
-@media (max-width: 700px) {
 
     .flex_column{
     flex-direction: column;

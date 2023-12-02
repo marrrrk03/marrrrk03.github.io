@@ -1,6 +1,10 @@
 ::-moz-selection { background: yellow; }
 ::selection { background: yellow; }
 
+a:visited { 
+    color: blue;
+}
+
 @font-face {
     font-family: 'TNB_regular';
     src: url(fonts/TimesNewBastard-RegularWeb.ttf);
@@ -24,6 +28,7 @@
 body{
 
     background-color: beige;
+    cursor: url('imgs5/cursor5.jpg'), auto;
 
 }
 
@@ -122,5 +127,21 @@ h5{
     flex-wrap: nowrap;
     justify-content: space-between;
     gap: 100px;
+
+}
+
+@media (max-width: 650px) {
+
+    .two_column_flex{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0;
+        padding-left: 0px;
+        padding-right: 25px;
+        padding-top: 250px;
+    
+    }
 
 }
